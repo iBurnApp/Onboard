@@ -1,0 +1,7 @@
+// SwiftPM module map for the Onboard target (see Package.swift). The public headers
+// stay in Source/ so the podspec, the framework project and the demo keep working.
+module Onboard {
+    header "../OnboardingContentViewController.h"
+    header "../OnboardingViewController.h"
+    export *
+}
